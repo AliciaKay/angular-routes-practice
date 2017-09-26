@@ -1,4 +1,16 @@
 <section>
     <h1>April and Andy!</h1>
     <img src="pics/april-and-andy.jpg">
+
+    <ol>
+        <li ng-repeat="aThing in CA.aItems">{{aThing}}</li>
+    </ol>
+
+    <ol>
+        <li ng-repeat="bThing in CB.bItems">{{bThing}}</li>
+    </ol>
+
+    <button ng-click="CA.clickUpdate()">Click This</button>
+    <div>Count: {{CA.countObj.count}}</div>
+
 </section>

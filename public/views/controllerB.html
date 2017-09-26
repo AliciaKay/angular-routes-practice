@@ -1,3 +1,14 @@
 <section>
-    This is view B!
+    <h1>Ben and Leslie</h1>
+    <img src="">
+
+    <ol>
+        <li ng-repeat="singleThing in CB.bStuff">{{singleThing}}</li>
+    </ol>
+
+    <button ng-click="CB.clickUpdate()">Click This</button>
+    <div>Count: {{CB.countObj.count}}</div>
+
+    <div ng-repeat="oneThing in CB.serverStuff.list">{{oneThing}}</div>
+
 </section>
