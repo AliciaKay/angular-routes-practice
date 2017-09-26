@@ -1,3 +1,3 @@
-myApp.controller('controllerA', function() {
+myApp.controller('ControllerA', function() {
     console.log('in controllerA');
-})
+});
