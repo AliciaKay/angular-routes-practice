@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular Routes Practice</title>
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/controllers/home.controller.js"></script>
+    <script src="scripts/controllers/controllerA.controller.js"></script>
+    <script src="scripts/controllers/controllerB.controller.js"></script>
+</head>
+<body ng-app="myApp">
+<nav>
+    <ul>
+        <li><a href="#!/home">Home</a></li>      
+        <li><a href="#!/controllerA">A</a></li>
+        <li><a href="#!/controllerB">B</a></li>    
+    </ul>
+</nav>
+<ng-view>
+
+
+</ng-view>
+
+</body>
+</html>
