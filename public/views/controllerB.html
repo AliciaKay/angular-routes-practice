@@ -1,14 +1,16 @@
 <section>
     <h1>Ben and Leslie</h1>
-    <img src="">
+    <iframe src="https://giphy.com/embed/lACQEmYg7RxzW" width="480" height="252" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/parks-and-recreation-amy-poehler-rec-lACQEmYg7RxzW">via GIPHY</a></p>
 
-    <ol>
+    <!-- <ol>
         <li ng-repeat="singleThing in CB.bStuff">{{singleThing}}</li>
-    </ol>
+    </ol> -->
 
-    <button ng-click="CB.clickUpdate()">Click This</button>
-    <div>Count: {{CB.countObj.count}}</div>
-
-    <div ng-repeat="oneThing in CB.serverStuff.list">{{oneThing}}</div>
+    <button ng-click="CB.highFive()">Click to Double High-Five!</button>
+    <div>Their Attempt: {{CB.theirRandomGen.result}}</div>
+    <div>Your Attempt: {{CB.yourRandomGen.result}}</div>
+    <div>The Difference: {{CB.whoWins.theDifference}}</div>
+    <div><p>What now? {{CB.scoreTheFive.response.response}}</p></div>
+    <!-- <div ng-repeat="oneThing in CB.serverStuff.list">{{oneThing}}</div> -->
 
 </section>
